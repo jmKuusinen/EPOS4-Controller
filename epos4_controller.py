@@ -505,13 +505,6 @@ class ThreadedClient(Gui):
 
 if __name__ == "__main__":
     root = tk.Tk()
-    background = PhotoImage(file='‪C:/Users/J/Pictures/bc_epos4.jpg')
+    background = PhotoImage(file='‪C:/Users/J/Pictures/bc_epos4.jpg') # Insert a background photo of your choice here
     client = ThreadedClient(root)
     root.mainloop()
-
-
-'''Dev notes'''
-# Add dynamic label for info prints. // DONE
-# RPM Counter - works @Move but need to make it cleaner
-# Button not recovering after test cycle completed
-# Errors with format when trying to print elapsed time, REDO: everything same as in testcycle
